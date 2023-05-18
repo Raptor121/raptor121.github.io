@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MORAR CONST</title>
+    <link rel="stylesheet" href="../css/stylecatalog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/T-icon.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+      
+       
+        
+        <a href="../index.html" class="logo">  <img src="../images/morar-const-logo.png" width="135px" alt=""></a>
+        <nav class="navbar">
+        </nav>
+        <div class="icons">
+
+            <a href="logare.html" class="fas fa-user"></a>
+
+        </div>
+
+    </header>
+    <div class="container">
+        <div class="menu">
+            <div class="logo">
+
+            </div>
+
+        </div>
+        <div class="center">
+            <div class="search">
+                <div class="form">
+
+
+                </div>
+            </div>
+
+            <h2>Produsele</h2>
+            <div class="list">
+                <div class="item" data-key="1">
+                    <div class="img">
+                        <img src="../images/sand.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Nisip</div>
+                        <div class="des">
+                            un sac 20kg
+                        </div>
+
+                        <div class="price">21 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add" onclick="adaugaInCos(1)">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(1)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="2">
+                    <div class="img">
+                        <img src="../images/chirpici.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Bloc BCA</div>
+                        <div class="des">
+                            1 buc.
+                        </div>
+                        <div class="price">60 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add" onclick="adaugaInCos(2)">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(2)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="3">
+                    <div class="img">
+                        <img src="../images/ciment.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Ciment</div>
+                        <div class="des">
+                            un sac 40kg
+                        </div>
+                        <div class="price">126 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(3)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="4">
+                    <div class="img">
+                        <img src="../images/furtun.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Furtun</div>
+                        <div class="des">
+                            50Metri
+                        </div>
+                        <div class="price">867 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(4)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+                <div class="item" data-key="5">
+                    <div class="img">
+                        <img src="../images/impact.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Masina de insurubat cu impact cu acumulator</div>
+                        <div class="des">
+                            o masina, 2 acumulatoare
+                        </div>
+                        <div class="price">2176 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(5)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="6">
+                    <div class="img">
+                        <img src="../images/lemn.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Lemn</div>
+                        <div class="des">
+                            1 buc.
+                        </div>
+                        <div class="price">221 lei </div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(6)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="7">
+                    <div class="img">
+                        <img src="../images/pietris.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Pietris</div>
+                        <div class="des">
+                            un sac 20kg
+                        </div>
+                        <div class="price">19 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(7)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="8">
+                    <div class="img">
+                        <img src="../images/topor.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Topor</div>
+                        <div class="des">
+                            1 buc.
+                        </div>
+                        <div class="price">639 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(8)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="9">
+                    <div class="img">
+                        <img src="../images/vopsea.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Vopsea</div>
+                        <div class="des">
+                            0.75L
+                        </div>
+                        <div class="price">76 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(9)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="10">
+                    <div class="img">
+                        <img src="../images/img1.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Bec</div>
+                        <div class="des">
+                            Bec Led A60 cu soclu E27 9W 4000K
+                        </div>
+                        <div class="price">27 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(10)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+
+                <div class="item" data-key="11">
+                    <div class="img">
+                        <img src="../images/img2.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Boiler</div>
+                        <div class="des">
+                            Boiler GCV 1204520 TSR
+                        </div>
+                        <div class="price">4735 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(11)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="12">
+                    <div class="img">
+                        <img src="../images/img3.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Brad Artificial</div>
+                        <div class="des">
+                            Brad artificial Bucoveli 1.8m 582ramuri
+                        </div>
+                        <div class="price">3890 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(12)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="13">
+                    <div class="img">
+                        <img src="../images/img4.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Chit </div>
+                        <div class="des">
+                            Chit FUGANmertel Bej №5 1kg
+                        </div>
+                        <div class="price">50 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(13)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="14">
+                    <div class="img">
+                        <img src="../images/img5.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Adeziv</div>
+                        <div class="des">
+                            Adeziv Woodfix D3 750ml
+                        </div>
+                        <div class="price">97 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(14)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="15">
+                    <div class="img">
+                        <img src="../images/img6.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Compresor</div>
+                        <div class="des">
+                            Compresor aer cu ulei 50L TC125506
+                        </div>
+                        <div class="price">4230 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(15)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="16">
+                    <div class="img">
+                        <img src="../images/img7.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Covoras electric</div>
+                        <div class="des">
+                            Covoras electric pardoseala calda DSVF-150 75W
+                        </div>
+                        <div class="price">1970 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(16)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="17">
+                    <div class="img">
+                        <img src="../images/img8.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Dalta</div>
+                        <div class="des">
+                            Dalta plata Hex 20x450mm Hikoki
+                        </div>
+                        <div class="price">239 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(17)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="18">
+                    <div class="img">
+                        <img src="../images/img9.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Disc fierastrau</div>
+                        <div class="des">
+                            Disc fierastrau circular 125х22.23mm T24 Specialist
+                        </div>
+                        <div class="price">198 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(18)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="19">
+                    <div class="img">
+                        <img src="../images/img10.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Fierastrau electric</div>
+                        <div class="des">
+                            Fierastrau vertical 450W Stanley SJ45
+                        </div>
+                        <div class="price">1190 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(19)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="20">
+                    <div class="img">
+                        <img src="../images/img11.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Foarfece tabla</div>
+                        <div class="des">
+                            Foarfeca tabla 200mm
+                        </div>
+                        <div class="price">349 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(20)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+
+                <div class="item" data-key="21">
+                    <div class="img">
+                        <img src="../images/img12.png" alt="">
+                    </div>
+                    <div class="content">
+                        <div class="title">Izolatie</div>
+                        <div class="des">
+                            Izolatie pentru teava 219x50mm
+                        </div>
+                        <div class="price">497 lei</div>
+                        <input type="number" class="count" min="1" value="1">
+                        <button class="add">Adauga in Cos</button>
+                        <button class="remove" onclick="Remove(21)"><i class="fa-solid fa-trash-can"></i></button>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="cart">
+            <div class="name">Produsele din Cos</div>
+            <div class="listCart">
+
+            </div>
+
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">0 lei</div>
+                <div class="promo-code-button" style="display: flex; justify-content: center">
+                    <input type="text" placeholder="introduce-ti codul promotional" class="promo-code-input">
+                    <div class="promo-code-input"><button class="promo-code-button">Promocode</button></div>
+                </div>
+
+
+            </div>
+            <div class="btn-1">
+                <a href="payment.html" class="btn">Cumpara!</a>
+            </div>
+        </div>
+    </div>
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Link-uri</h3>
+                <a href="#">Acasa</a>
+                <a href="#">Despre</a>
+                <a href="#">Catalog</a>
+                <a href="#">Locatie</a>
+                <a href="#">Formular</a>
+            </div>
+
+            <div class="box paddingbox">
+                <h3>Magazin in s.Suruceni</h3>
+
+                <a href="#"> satul Suruceni</a>
+                <h3>Magazin in Chisinau</h3>
+                <a href="#"> Str. Calea Basarabiei, 2, Chisinau, MD2023</a>
+            </div>
+
+            <div class="box">
+                <h3>Contacte</h3>
+                <a href="#">+37360721155</a>
+                <a href="#">+37379807111</a>
+                <a href="#">Chisinau, Republica Moldova</a>
+            </div>
+            <div>
+                <a href="index.html" class="logofooter"> <img src="../images/morar-const-logo.png" width="135px" alt=""></a>
+            </div>
+
+        </div>
+
+    </section>
+    <div class="copyright">
+        &copy; <h5>2023 Morar-Const. Toate drepturile sunt rezervate</h5>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
